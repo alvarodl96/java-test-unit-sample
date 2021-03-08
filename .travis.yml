@@ -4,6 +4,7 @@ env:
   global:
     - CC_TEST_REPORTER_ID=9ca5813bd5f4675d95d88838494ead8f435d60c0cd4570387129adb0740e769c
 language: java
+java: "1.8.0_151"
 branches:
   only: master
 before_script:
